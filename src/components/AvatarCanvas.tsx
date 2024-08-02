@@ -48,7 +48,7 @@ const AvatarCanvas = () => {
         <Canvas dpr={[0, 2]} className='h-screen'>
             <ambientLight intensity={3} />
             <pointLight position={[1, 1, 1]} />
-            <OrbitControls enableZoom={false} enablePan={false} />
+            <OrbitControls enableZoom={false} enablePan={false} enabled={false} />
             <Suspense fallback={<Html><Loader /></Html>}>
                 <Avatar />
             </Suspense>
