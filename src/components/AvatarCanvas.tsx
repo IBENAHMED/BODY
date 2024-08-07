@@ -30,7 +30,7 @@ const Avatar = () => {
                 rotation-y={-0.5}
                 position-x={[-1]}
             />
-            <Html position={[-5, 0, 0]}>
+            <Html position={[-1, -3, 0]}>
                 <button
                     className="bg-blue-300 text-black w-[100px] p-2 rounded-lg text-xs sm:text-lg sm:w-[200px] hover:bg-white hover:scale-110 duration-500"
                     onClick={() => { setIndex((index + 1) % names.length); setIsClicked(!isClicked) }}
